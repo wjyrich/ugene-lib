@@ -31,4 +31,9 @@ lib.path = $$PREFIX/lib/x86_64-linux-gnu
 lib.files = lcms2/*
 lib2.path = $$PREFIX/lib/
 lib2.files = lcms2/*
-INSTALLS += libs lib lib2
+
+lib3.path = $$PREFIX/lib/x86_64-linux-gnu
+lib3.files = xml2/*
+lib4.path = $$PREFIX/lib/
+lib4.files = xml2/*
+INSTALLS += libs lib lib2 lib3 lib4
