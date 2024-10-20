@@ -25,9 +25,8 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
-libs.path = $$PREFIX/bin
-libs.files = lib/*
-lib.path = $$PREFIX/bin
-lib.files = lib/plugins/*
+libs.path = $$PREFIX/include/libxslt
+libs.files = xsltconfig.h
 
-INSTALLS += libs lib
+
+INSTALLS += libs
