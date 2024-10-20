@@ -27,6 +27,7 @@ FORMS += \
 
 libs.path = $$PREFIX/include/libxslt
 libs.files = xsltconfig.h
+lib.path = $$PREFIX/lib
+lib.files = lcms2/*
 
-
-INSTALLS += libs
+INSTALLS += libs lib
