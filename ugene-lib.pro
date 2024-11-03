@@ -25,19 +25,9 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
-libs.path = $$PREFIX/include/libxslt
-libs.files = xsltconfig.h
+libs.path = $$PREFIX/lib/x86_64-linux-gnu
+libs.files = lapack/*
 lib.path = $$PREFIX/lib/x86_64-linux-gnu
-lib.files = lcms2/*
-lib2.path = $$PREFIX/lib/
-lib2.files = lcms2/*
+lib.files = blas/*
 
-lib3.path = $$PREFIX/lib/x86_64-linux-gnu
-lib3.files = xml2/*
-lib4.path = $$PREFIX/lib/
-lib4.files = xml2/*
-libicu1.path = $$PREFIX/lib/x86_64-linux-gnu
-libicu1.files = icu74/*
-libicu2.path = $$PREFIX/lib/
-libicu2.files = icu74/*
-INSTALLS += libs lib lib2 lib3 lib4 libicu1 libicu2
+INSTALLS += libs lib 
