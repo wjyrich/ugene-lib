@@ -26,8 +26,7 @@ FORMS += \
     mainwindow.ui
 
 libs.path = $$PREFIX/lib/x86_64-linux-gnu
-libs.files = lapack/*
-lib.path = $$PREFIX/lib/x86_64-linux-gnu
-lib.files = blas/*
+libs.files = samba/*
 
-INSTALLS += libs lib 
+
+INSTALLS += libs 
